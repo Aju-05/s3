@@ -1,12 +1,11 @@
 variable "source_bucket" {
-  description = "Name of the source S3 bucket"
+  description = "Source bucket name"
   type        = string
-  default     = "bucket"
 }
 
 variable "destination_bucket" {
-  description = "Name of the destination S3 bucket"
+  description = "Destination bucket name"
   type        = string
-  default     = "new-bucket"
 }
+
 
